@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 30rem;
+    width: 20rem;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 00.625rem 0 0  0.625rem;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.625rem 0.625rem 0;
+}
+
+.car-images {
+    margin: 3rem auto auto 2.5rem;
+}
+
+.heading {
+    margin: 2rem auto auto 2.5rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+.description {
+    margin: 2rem 3.5rem auto 2.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5rem;
+}
+
+.button {
+    border-radius: 10rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    margin: 4.5rem auto auto 2.5rem;
+    border-style: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
